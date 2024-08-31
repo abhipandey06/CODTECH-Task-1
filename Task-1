@@ -1,0 +1,33 @@
+#Creating a Simple Calculator
+
+def calculator():
+    num1 = float(input("Enter the 1st number : "))
+    num2 = float(input("Enter the 2nd number : "))
+
+    print("Choose an operator (+ , - , * , /) : ")
+
+    operator = input("Enter the Choosen operator : ")
+
+    if operator == '+':
+        add = num1 + num2
+        print("The Addition of ",num1,"+",num2," is = ",add)
+    
+    elif operator == "-":
+        sub = num1 - num2
+        print("The subtraction of ",num1,"-",num2," is = ",sub)
+    
+    elif operator == "*":
+        mul = num1 * num2
+        print("The Multiplication of ",num1,"*",num2," is = ",mul)
+    
+    elif operator == "/":
+        if num2 != 0:
+            div = num1 / num2
+            print("The Division of ",num1,"/",num2," is = ",div)
+        else:
+            print("Division by ZERO is not Allow")
+    
+    else:
+        print("Invalid operator !!")
+        
+calculator()
