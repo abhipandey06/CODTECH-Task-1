@@ -28,3 +28,6 @@ The objective of this code is to create a simple interactive calculator that:
 - Allows the user to select an arithmetic operation (addition, subtraction, multiplication, or division).
 - Computes and displays the result of the chosen operation.
 - Prevents division by zero and provides an error message if attempted.
+
+OUTPUT OF TASK-1 :
+![Screenshot 2024-09-06 200600](https://github.com/user-attachments/assets/98d2420a-9a05-4a99-81f3-5acc29f8fbf9)
